@@ -1,15 +1,4 @@
-type imageProps = {
-  url: string;
-  width: number;
-  height: number;
-};
-
-type productProps = {
-  id: number;
-  title: string;
-  price: number;
-  image: imageProps;
-};
+import { productProps } from "./types";
 
 const product = ({ id, title, price, image }: productProps) => {
   return <div></div>;
