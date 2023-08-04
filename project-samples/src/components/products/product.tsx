@@ -1,6 +1,6 @@
 import { productProps } from "./types";
 
-const product = ({ id, title, price, image }: productProps) => {
+const product = ({ id, title, price, image, onClick }: productProps) => {
   return <div></div>;
 };
 
